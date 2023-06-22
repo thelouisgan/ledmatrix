@@ -1,5 +1,5 @@
 # ledmatrix
-Displaying .BMP files on LED Matrix using Arduino
+Displaying .BMP files on RGB LED Matrix (WS2812b) using Arduino
 
 # Arduino Tutorial: Displaying .bmp Files on Arduino
 
@@ -7,7 +7,7 @@ Many/all tutorials online that I found are either not working or not completed w
 
 ## Prerequisites
 
-- Arduino board with an 8x32 LED matrix
+- Arduino board with an [8x32 LED matrix](https://www.youtube.com/watch?v=8wGQWEosR48)
 - LCD Image Converter application (Windows) installed from: [LCD Image Converter](https://lcd-image-converter.riuson.com/en/about/)
 - Basic knowledge of Arduino programming and uploading sketches
 
@@ -27,7 +27,7 @@ Many/all tutorials online that I found are either not working or not completed w
 ### 3. Importing Preset Settings
 
 - Go to **Options > Conversion**.
-- Click on **Import...** and choose the `louis.xml` file provided in this repository. This preset is specifically designed for an 8x32 LED matrix.
+- Click on **Import...** and choose the [`louis.xml`](louis.xml) file provided in this repository. This preset is specifically designed for an 8x32 LED matrix.
 - Modify the photo resolution in the application according to your LED matrix size if necessary.
 
 ### 4. Generating the C Array
@@ -38,7 +38,7 @@ Many/all tutorials online that I found are either not working or not completed w
 ### 5. Integrating the C Array into Arduino
 
 - Open your Arduino IDE or preferred code editor.
-- Create a new Arduino sketch or open an existing one.
+- Load the Arduino code [`LOUIS_GAN_LED_MATRIX.ino`](LOUIS_GAN_LED_MATRIX.ino)
 - Locate the section of the sketch where you want to display the image.
 - Paste the copied C array into the sketch, making sure it is placed within the appropriate code section.
 - If you have multiple images that you want to display in a loop, add another C array and paste it into the desired section of the sketch.
