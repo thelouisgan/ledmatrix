@@ -27,7 +27,7 @@ Many/all tutorials online that I found are either not working or not completed w
 ### 3. Importing Preset Settings
 
 - Go to **Options > Conversion**.
-- Click on **Import...** and choose the [`louis.xml`](louis.xml) file provided in this repository. This preset is specifically designed for an 8x32 LED matrix.
+- Click on **Import...** and choose the [`LOUIS.xml`](LOUIS.xml) file provided in this repository. This preset is specifically designed for an 8x32 LED matrix.
 - Modify the photo resolution in the application according to your LED matrix size if necessary.
 
 ### 4. Generating the C Array
