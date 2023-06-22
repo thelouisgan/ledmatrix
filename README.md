@@ -1,7 +1,7 @@
 # ledmatrix
-Displaying .BMP files on RGB LED Matrix (WS2812b) using Arduino
+Displaying .BMP files on RGB LED Matrix (WS2812B) using Arduino
 
-# Arduino Tutorial: Displaying .bmp Files on Arduino
+# Arduino Tutorial: Displaying BMP with NeoPixel RGB LED Matrix (WS2812B) on Arduino
 
 Many/all tutorials online that I found are either not working or not completed with the instructions. This tutorial will guide you through the process of displaying .bmp files on an Arduino using an 8x32 LED matrix (but you can also use other). We will be using the LCD Image Converter application for Windows to convert the image files into a C array that can be easily integrated into an Arduino sketch.
 
